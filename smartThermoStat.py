@@ -7,7 +7,7 @@ class Thermostat:
 
     def set_temparature(self, temparature):
         self.__temparature = temparature
-        print(self.__temparature)
+        # print(self.__temparature)
         if int(self.__temparature) >= 30 or int(self.__temparature) <=18:
             print(f"The temparature is not in safe zone. ")    
         else:
@@ -15,6 +15,6 @@ class Thermostat:
 
 myThermostat = Thermostat()
 
-myThermostat.get_temparature()
-myThermostat.set_temparature(87)
+# myThermostat.get_temparature()
+myThermostat.set_temparature(18)
 myThermostat.get_temparature()

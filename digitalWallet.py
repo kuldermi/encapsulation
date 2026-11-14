@@ -20,6 +20,7 @@ class DigitalWallet:
         else:
             self.__balance -= fare
             print(f"Your wallet balance is after deduction {self.__balance}")            
+    @property
     def get_balance(self):
         print(f"This is the curernt balance {self.__balance}")
 
@@ -31,5 +32,5 @@ myWallet = DigitalWallet()
 # print(myWallet.__balance)
 myWallet.add_money(104)
 myWallet.deduct_fare(120)
-myWallet.get_balance()
+myWallet.get_balance
   
